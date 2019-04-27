@@ -1,7 +1,7 @@
 # 项目文档
 
 # vue-preview 缩略图插件  
-  地址：https://github.com/LS1231/vue-preview
+1. 地址：https://github.com/LS1231/vue-preview
 
 #  使用手机进行调试
 1. 使手机和电脑处于同一WiFi环境下
@@ -19,3 +19,6 @@
 7. 补充：
    1. 添加公共密匙：[参考链接](https://blog.csdn.net/feiwutudou/article/details/80578432)
    2. git push错误failed to push some refs to的解决：[参考链接](https://blog.csdn.net/MBuger/article/details/70197532)
+
+#  md文件的格式
+1. 基本使用方法：[参考链接](https://www.cnblogs.com/liugang-vip/p/6337580.html )   
