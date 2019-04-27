@@ -18,4 +18,4 @@
     6. git push -u origin master 把当前本地仓库同步到远程仓库
     7. 补充：
         (1)添加公共密匙：[参考链接](https://blog.csdn.net/feiwutudou/article/details/80578432)
-        (2)git push错误failed to push some refs to的解决：[参考链接](https://blog.csdn.net/MBuger/article/details/70197532)
+        (2)git push错误failed to push some refs to的解决：[参考链接](https://blog.csdn.net/MBuger/article/details/70197532)[Spring-data-jpa 查询  复杂查询陆续完善中](http://www.cnblogs.com/sxdcgaq8080/p/7894828.html)
