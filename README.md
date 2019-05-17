@@ -14,9 +14,12 @@
 2. git add . 把文件添加到仓库
 3. git commit -m "***" 把文件提交到仓库。并有提交说明 -m 后的字符串为提交的说明
 4. git status 查看当前仓库的状态
-5. git remote add origin src 把当前本地仓库与远程仓库关联 src为远程仓库的地址
-6. git push -u origin master 把当前本地仓库同步到远程仓库
-7. 补充：
+5. git remote add 远程仓库 src 把当前本地仓库与远程仓库关联 src为远程仓库的地址
+6. git push -u 远程仓库 本地分支 把当前本地仓库同步到远程仓库（只有第一次使用-u）
+7. 把本地分支推送到远程分支 git push --set-upstream 远程仓库 分支名 
+8. 把远程仓库拉取到本地 git pull 本地分支 远程仓库/远程分支
+   1. 当提示 refusing to merge unrelated histories 则使用 git pull --set-upstream-to 本地分支 远程仓库/远程分支
+8. 补充：
    1. 添加公共密匙：[参考链接](https://blog.csdn.net/feiwutudou/article/details/80578432)
    2. git push错误failed to push some refs to的解决：[参考链接](https://blog.csdn.net/MBuger/article/details/70197532)
 

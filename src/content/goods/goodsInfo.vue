@@ -97,7 +97,7 @@ export default {
     },
     enter(el,done){
       el.offsetWidth
-      var ballDist = this.$refs.ball.getBoundingClientRect()
+      var ballDist = this.$refs.ball.getBoundingClientRect()// getBoundingClientRect获取元素四边距离顶部和左边的距离
       var badgeDist = document.getElementById("badge").getBoundingClientRect()
       var x = badgeDist.left - ballDist.left
       var y = badgeDist.top - ballDist.top
